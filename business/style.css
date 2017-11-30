@@ -1,1 +1,35 @@
+* {
+  font-family:"comic sans ms";
+}
 
+.flexboxholder {
+  display:flex;
+}
+
+h1 {
+  font-size:30px;
+  color:red;
+}
+
+body {
+  background-color:skyblue;
+}
+
+a:link, a:visited {
+  text-decoration:none;
+  color:white;
+  background-color:midnightblue;
+  padding:10px 20px;
+  margin: 10px 0 0 10px;
+  transition-property:color,background-color;
+  transition-duration:1s;
+}
+
+a:hover {
+  color:midnightblue;
+  background-color:red;
+}
+
+a:active {
+  background-color:black;
+}
