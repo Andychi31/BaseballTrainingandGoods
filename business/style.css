@@ -10,6 +10,8 @@
 h1 {
   font-size:30px;
   color:red;
+  background-color:black;
+  padding:10px;
 }
 
 body {
@@ -24,7 +26,7 @@ a:link, a:visited {
   transition-property:color,background-color;
   transition-duration:.25s;
   flex:1;
-  
+  text-align:center;
 }
 
 a:hover {
@@ -35,4 +37,61 @@ a:hover {
 a:active {
   background-color:black;
   color:white;
+}
+
+p {
+  color:white;
+  text-indent:50px;
+}
+
+.mainbody {
+  display:flex;
+  flex-direction:row-reverse;
+  color:white;
+  margin-top:10px;
+}
+
+.maincolumn h1 {
+  text-align:center;
+  color:midnightblue;
+  background-color:red;
+}
+
+.maincolumn {
+  padding:25px;
+  flex:3;
+  background-color:red;
+  margin-left:10px;
+}
+
+.mainsidebar {
+  flex:1;
+  background-color:black;
+  margin 10px
+}
+
+.additiontext {
+  padding:20px;
+  box-sizing:border-box;
+  margin-bottom:20px;
+  width:300px;
+  background-color:red;
+}
+
+.flexboxaddition {
+  max-width:800px;
+  margin:40px auto 0 auto;
+  display:flex;
+  justify-content:space-between;
+}
+
+.btn{
+  text-decoration:none;
+  padding:1rem 2rem;
+  border:white 1px solid;
+  margin-top:40px;
+}
+
+h2 {
+  color:midnightblue;
 }
