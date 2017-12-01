@@ -28,6 +28,7 @@ body {
   animation-name:floatingdown;
   animation-duration:3s;
   animation-fill-mode:forwards;
+  color:red;
 }
 
 @keyframes floatingdown {
@@ -37,6 +38,7 @@ body {
 
 #content {
   position:relative;
+  color:red;
   animation-name:content;
   animation-duration:3s;
   animation-fill-mode:forwards;
@@ -71,3 +73,4 @@ body {
 a:hover {
   transform:rotateY(180deg);
 }
+
