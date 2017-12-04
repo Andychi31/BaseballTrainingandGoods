@@ -95,3 +95,10 @@ p {
 h2 {
   color:midnightblue;
 }
+
+
+img {
+  height:200px;
+  width:200px;
+  padding:15px;
+}
