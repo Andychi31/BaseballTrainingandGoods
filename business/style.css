@@ -29,6 +29,11 @@ a:link, a:visited {
   text-align:center;
 }
 
+#map {
+    height: 400px;
+    width: 100%;
+}
+       
 a:hover {
   color:midnightblue;
   background-color:red;
@@ -67,7 +72,8 @@ p {
 .mainsidebar {
   flex:1;
   background-color:black;
-  margin 10px
+  margin 10px;
+  padding:10px;
 }
 
 .additiontext {
@@ -94,6 +100,7 @@ p {
 
 h2 {
   color:midnightblue;
+  text-align:center;
 }
 
 
@@ -102,3 +109,9 @@ img {
   width:200px;
   padding:15px;
 }
+
+
+
+
+
+
