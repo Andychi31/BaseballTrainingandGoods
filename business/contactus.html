@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Baseball Training And Goods</title>
+  </head>
+  
+  <body>
+    <h1>Welcome to Baseball Training and Goods</h1>
+    <div class="flexboxholder">
+      <a href="main.html">Home</a>
+      <a href="contactus.html">Contact Us</a>
+      <a href="#">Products and Services</a>
+    </div>
+    <div class="mainbody">
+        <div class="maincolumn">
+         <div id="map"></div>
+          <script>
+            function initMap() {
+              var uluru = {lat:41.4358733, lng:-87.6323783};
+              var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4,
+            center: uluru
+            });
+            var marker = new google.maps.Marker({
+              position: uluru,
+              map: map
+            });
+          }
+        </script>
+          <h1 style="color:black">Hours of Operation:</h1>
+          <h2>Mon-Fri:7am - 7pm</h2>
+          <h2>Sat:10am - 7pm</h2>
+          <h2>Sun:10am - 5pm</h2>
+        </div>
+      <div class="mainsidebar">
+     <h2>Location</h2>
+          3111 Chi St.<br>Crete,IL 60417
+          <h2><i>Phone:</i><br></h2>708-653-3111
+          <h2>Email:</h2>
+          BTG@BaseballGoods.net
+      </div>
+    </div>
+    <div class="flexboxaddition">
+      <div class="additiontext">
+        <h2>Lessons</h2>
+        <p>Here at Baseball Training and Goods, we ave all sorts of valuable lessons to share to our players. We even have many MLB players that are willing to share their knowledge and experience of the game. </p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+      <div class="additiontext">
+        <h2>Products</h2>
+        <p>Here at Baseball Training and Goods, we have all sorts of products from lots of very popular companies. We have all the right equipment to fit just about every playstyle and need of just about any player. </p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </div>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFTcSJ-PpbDy7eAJtOC4Hpa3JxNGO4kvY&callback=initMap">
+</script>
+
+  </body>
+</html>
