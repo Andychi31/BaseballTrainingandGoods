@@ -25,9 +25,10 @@
           <li>We also have a one year, free refund policy</li>
         </ul>
       </div>
-      
     </div>
-    <div class="flexboxaddition">
+          
+    <button id="hidebutton" onclick="hideOffers()">Hide Offers</button>
+    <div id="specialoffers" class="flexboxaddition">
       <div class="additiontext">
         <h2>Lessons</h2>
         <p>Here at Baseball Training and Goods, we ave all sorts of valuable lessons to share to our players. We even have many MLB players that are willing to share their knowledge and experience of the game. </p>
@@ -39,5 +40,13 @@
         <a href="#" class="btn">Learn More</a>
       </div>
     </div>
+    <script>
+        function hideOffers() {
+          var x = document.getElementById("specialoffers");
+          x.style.display="none";
+          var y = document.getElementById("hidebutton");
+          y.style.display="none";
+        }
+    </script>
   </body>
 </html>
